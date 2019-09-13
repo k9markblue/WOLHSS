@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="icon.png" sizes="32x32">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/27f54528ba.js"></script>
+
+    <title>Win Or Lose Have Shiny Shoes</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row mb-0">
+            <div class="col-2 nav-button">
+                <a class="btn btn-primary btn-block" href="index.html"><i class="fas fa-home"></i></i> Home</a>
+            </div>
+            <div class="col-2 nav-button">
+                <a class="btn btn-primary btn-block" href="our-story.html"><i class="fas fa-images"></i> Our story</a>
+            </div>
+            <div class="col-4 mx-auto text-center">
+                <img class="card-img mx-auto d-block" src="assets/logos/Logo.jpeg" alt="Logo">
+            </div>
+            <div class="col-2 nav-button">
+                <a class="btn btn-primary btn-block" href="support-us.html"><i class="fas fa-hands-helping"></i> Support
+                    us</a>
+            </div>
+            <div class="col-2 nav-button">
+                <a class="btn btn-primary btn-block active" href="contact-us.html"><i class="fas fa-info"></i> Contact
+                    us</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h1 style="font-weight: 900;text-align: center; color: red">CURRENTLY UNAVAILABLE DUE TO MAINTANCE.</h1>
+    </div>
+
+    <div class="container">
+        <div class="text-center">
+            <h4><em>Are you a group, business or social-enterprise that wishes to take part in the shiny shoes project?
+                    <br>
+                    Find out more about how to become a distribution point!</em></h4>
+            <p>
+                We want this to go nationwide, so we need people to store and distribute boxes, sign up to the shiny
+                shoes project and become a distribution point;
+                helping to support the homeless in your area to get back into emlployment. Simply fill in the form below
+                to contact us and arrange sign up!
+            </p>
+        </div>
+
+        <form id="contact-form" method="post" action="contact.php" role="form">
+            <div class="messages"></div>
+            <div class="controls">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_name">Company</label>
+                            <input id="form_name" type="text" name="company" class="form-control"
+                                placeholder="Please enter your company name." required="required"
+                                data-error="Company is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_lastname">Location</label>
+                            <input id="form_lastname" type="text" name="location" class="form-control"
+                                placeholder="Please enter your location." required="required"
+                                data-error="Location is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_email">Email</label>
+                            <input id="form_email" type="email" name="email" class="form-control"
+                                placeholder="Please enter your email." required="required"
+                                data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Type Here..."
+                                rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send disabled" value="Send">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <br>
+        <hr class="styled">
+        <br>
+
+        <div class="text-center">
+            <h3><em>Any other queries/feedback.</em></h3> <br>
+        </div>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+            <div class="messages"></div>
+            <div class="controls">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Firstname(s)</label>
+                            <input id="form_name" type="text" name="name" class="form-control"
+                                placeholder="Please enter your firstname(s)." required="required"
+                                data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_lastname">Lastname(s)</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control"
+                                placeholder="Please enter your lastname(s)." required="required"
+                                data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_email">Email</label>
+                            <input id="form_email" type="email" name="email" class="form-control"
+                                placeholder="Please enter your email." required="required"
+                                data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Type here..."
+                                rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send disabled" value="Send">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <br>
+    <br>
+    <footer class="page-footer font-small master-footer border-top border-primary border-3">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <p class="text-shadow text-white mt-2">Trevor Saunders Mandalay Wellbeing CIC</p>
+            </div>
+            <div class="row text-center">
+                <p class="text-shadow text-white" style="text-align: center">07935 115641 | Info@mwcic.co.uk |
+                    www.christmasstockingcampaign.org.uk | www.mandalaywellbeingcic.co.uk</p>
+            </div>
+            <div class="row text-center">
+                <p class="text-shadow text-white"><a href="terms.html" class="text-white"><em>Terms</em></a> | <a
+                        href="privacy.html" class="text-white"><em>Privacy Policy</em></a></p>
+            </div>
+            <div class="row pb-3 text-center">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
+                    style="margin-left: 5%">
+                    <input type="hidden" name="cmd" value="_donations" />
+                    <input type="hidden" name="business" value="info@mwcic.co.uk" />
+                    <input type="hidden" name="currency_code" value="GBP" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif"
+                        border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                        alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+                <p style="display: inline; float: right; margin-right: 5%" class="text-shadow text-white">
+                    <i>Website Created by: Adam Ferguson</i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
