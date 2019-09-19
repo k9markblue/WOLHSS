@@ -67,7 +67,7 @@ hr.styled {
 }
 .gallary-photo{
     max-height: 300px; 
-    max-width: 290px; 
+    max-width: 330px; 
     width: auto;
 }
 .card-project-size{
@@ -85,10 +85,12 @@ hr.styled {
 .term-img{
     margin: 0 auto;
     display: block;
+    width: 100%;
 }
 .privacy-img{
     margin: 0 auto;
     display: block;
+    width: 100%;
 }
 .social-media-logo{
     max-height: 100px;
