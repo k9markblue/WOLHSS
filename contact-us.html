@@ -67,10 +67,6 @@
     <hr>
 
     <div class="container">
-        <h1 style="font-weight: 900;text-align: center; color: red">CURRENTLY UNAVAILABLE DUE TO MAINTANCE.</h1>
-    </div>
-
-    <div class="container">
         <div class="text-center">
             <h4><em>Are you a group, business or social-enterprise that wishes to take part in the shiny shoes project?
                     <br>
@@ -83,7 +79,7 @@
             </p>
         </div>
 
-        <form id="contact-form" action="POST" data-netlify="true">
+        <form id="contact-form-business" action="POST" data-netlify="true">
             <div class="messages"></div>
             <div class="controls">
                 <div class="row">
@@ -127,7 +123,9 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div data-netlify-recaptcha="true"></div>
+                        <div class="form-group">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
                         <input type="submit" class="btn btn-success btn-send" value="Send">
                     </div>
                 </div>
@@ -141,7 +139,7 @@
         <div class="text-center">
             <h3><em>Any other queries/feedback.</em></h3> <br>
         </div>
-        <form id="contact-form" action="POST" data-netlify="true">
+        <form id="contact-form casual" action="POST" data-netlify="true">
             <div class="messages"></div>
             <div class="controls">
                 <div class="row">
@@ -185,8 +183,10 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div data-netlify-recaptcha="true"></div>
-                        <input type="submit" class="btn btn-success btn-send disabled" value="Send">
+                        <div class="form-group">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                        <input type="submit" class="btn btn-success btn-send" value="Send">
                     </div>
                 </div>
             </div>
